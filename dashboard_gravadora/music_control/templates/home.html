@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'music_control/CSS/style.css'%}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>Control</title>
+</head>
+
+<body>
+    <header>
+        <div class="info-header">
+            <div class="logo">
+                <h2>OnePlay</h2>
+            </div>
+            <div class="nav-btn">
+            <a><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </div>
+        </div>
+    </header>
+
+<section class="page_front">
+
+<div class="sidebar">
+    <a><img id ="login_img" src="{% static 'music_control/CSS/js/felipe.jpg' %}" alt="cantor"></a>
+    <a id="spotifyLink"><i class="fa-brands fa-spotify"></i><span> Spotify</span></a>
+    <a id="2"><i class="fa-solid fa-table-columns"></i><span>Redes Sociais</span></a>
+    <a id="3"><i class="fa-solid fa-flask"></i><span> Plataformas</span></a>
+    <a id="4"><i class="fa-solid fa-robot"></i><span> Assistente Inteligente</span></a>
+</div>
+
+<div class="content">
+
+</div>
+</section>
+
+</body>
+<script src="{% static 'music_control/CSS/js/script.js' %}"></script>
+</html>
